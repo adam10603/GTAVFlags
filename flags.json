@@ -1,0 +1,659 @@
+{
+	"author": "Adam",
+	"version": "1.2",
+	"flags":
+	{
+		"strModelFlags":
+		[
+			{
+				"bit": 0,
+				"name": "IS_VAN",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "IS_BUS",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "IS_LOW",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "IS_BIG",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "ABS_STD",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "ABS_OPTION",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "ABS_ALT_STD",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "ABS_ALT_OPTION",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "NO_DOORS",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "TANDEM_SEATS",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "SIT_IN_BOAT",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "HAS_TRACKS",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "NO_EXHAUST",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "DOUBLE_EXHAUST",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "NO1FPS_LOOK_BEHIND",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "CAN_ENTER_IF_NO_DOOR",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "AXLE_F_TORSION",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "AXLE_F_SOLID",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "AXLE_F_MCPHERSON",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "ATTACH_PED_TO_BODYSHELL",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "AXLE_R_TORSION",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "AXLE_R_SOLID",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "AXLE_R_MCPHERSON",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "DONT_FORCE_GRND_CLEARANCE",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "DONT_RENDER_STEER",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "NO_WHEEL_BURST",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "INDESTRUCTIBLE",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "DOUBLE_FRONT_WHEELS",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "RC",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "DOUBLE_RWHEELS",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "MF_NO_WHEEL_BREAK",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "IS_HATCHBACK",
+				"description": ""
+			}
+		],
+		"strHandlingFlags":
+		[
+			{
+				"bit": 0,
+				"name": "SMOOTH_COMPRESN",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "REDUCED_MOD_MASS",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "Grip Min-To-Max",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "NO_HANDBRAKE",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "STEER_REARWHEELS",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "HB_REARWHEEL_STEER",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "STEER_ALL_WHEELS",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "FREEWHEEL_NO_GAS",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "NO_REVERSE",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "STEER_NO_WHEELS",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "CVT",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "ALT_EXT_WHEEL_BOUNDS_BEH",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "DONT_RAISE_BOUNDS_AT_SPEED",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "LESS_SNOW_SINK",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "TYRES_CAN_CLIP",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "OFFROAD_ABILITY",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "OFFROAD_ABILITY2",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "HF_TYRES_RAISE_SIDE_IMPACT_THRESHOLD",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "Rally Car",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "ENABLE_LEAN",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "HEAVYARMOUR",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "ARMOURED",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "SELF_RIGHTING_IN_WATER",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "IMPROVED_RIGHTING_FORCE",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
+				"description": ""
+			}
+		],
+		"strDamageFlags":
+		[
+			{
+				"bit": 0,
+				"name": "DRIVER_SIDE_FRONT_DOOR",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "DRIVER_SIDE_REAR_DOOR",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "DRIVER_PASSENGER_SIDE_FRONT_DOOR",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "DRIVER_PASSENGER_SIDE_REAR_DOOR",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "BONNET",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "BOOT",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
+				"description": ""
+			}
+		],
+		"strAdvancedFlags":
+		[
+			{
+				"bit": 0,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 1,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 2,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 3,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 4,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 5,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 6,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 7,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 8,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 9,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 10,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 11,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 12,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 13,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 14,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 15,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 16,
+				"name": "Lower Shifting Points",
+				"description": ""
+			},
+			{
+				"bit": 17,
+				"name": "Over Revving",
+				"description": ""
+			},
+			{
+				"bit": 18,
+				"name": "Bouncy Suspension",
+				"description": ""
+			},
+			{
+				"bit": 19,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 20,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 21,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 22,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 23,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 24,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 25,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 26,
+				"name": "Stock rim radius",
+				"description": ""
+			},
+			{
+				"bit": 27,
+				"name": "Open wheel behavior",
+				"description": ""
+			},
+			{
+				"bit": 28,
+				"name": "Suspension affects roll",
+				"description": ""
+			},
+			{
+				"bit": 29,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 30,
+				"name": "",
+				"description": ""
+			},
+			{
+				"bit": 31,
+				"name": "",
+				"description": ""
+			}
+		]
+	}
+}
