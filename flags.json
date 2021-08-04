@@ -157,7 +157,7 @@
 			},
 			{
 				"bit": 30,
-				"name": "MF_NO_WHEEL_BREAK",
+				"name": "NO_WHEEL_BREAK",
 				"description": ""
 			},
 			{
@@ -280,7 +280,7 @@
 			},
 			{
 				"bit": 22,
-				"name": "HF_TYRES_RAISE_SIDE_IMPACT_THRESHOLD",
+				"name": "TYRES_RAISE_SIDE_IMPACT_THRESHOLD",
 				"description": ""
 			},
 			{
