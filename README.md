@@ -3,7 +3,7 @@
 
 This repo hosts a JSON file that my GTA V handling-related tools use for decoding flags. This is just so I don't have to update each tool individually if flags are discovered or changed.
 
-## Access the file here: [`flags.json`](https://google.com)
+## Access the file here: [`flags.json`](https://raw.githubusercontent.com/adam10603/GTAVFlags/main/flags.json)
 
 For an end-user utility to manipulate flags, [use my flag tool](https://github.com/adam10603/GTA5VehicleFlagTool).
 
