@@ -7,9 +7,7 @@ This repo hosts a JSON file that my GTA V handling-related tools use for decodin
 
 For an end-user utility to manipulate flags, [use my flag tool](https://github.com/adam10603/GTA5VehicleFlagTool).
 
-The JSON's structure is backwards-compatible with [IKT's version](https://github.com/E66666666/GTAVHandlingInfo), just to make it easy to switch between them.
-
-There are some differences compared to IKT's version though:
+The JSON's structure is backwards-compatible with [IKT's version](https://github.com/E66666666/GTAVHandlingInfo), just to make switching between them easy. There are some differences with my version though:
 * There's an extra `author` property for easier distinction.
 * Each flag has a `bit` property added. This is for human readers, it shouldn't be needed in code.
 * Unofficial flag names deliberately have a different format from Rockstar's flag naming.
