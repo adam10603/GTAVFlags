@@ -9,7 +9,11 @@ For an end-user utility to manipulate flags, [use my flag tool](https://github.c
 
 The JSON's structure is backwards-compatible with [IKT's version](https://github.com/E66666666/GTAVHandlingInfo), just to make it easy to switch between them.
 
-This version contains additional properties compared to IKT's. I added an `author` property for easier distinction, as well as a `bit` property to each flag. The `bit` properties are mostly there for human readers.
+There are some differences compared to IKT's version though:
+* There's an extra `author` property for easier distinction.
+* Each flag has a `bit` property added. This is for human readers, it shouldn't be needed in code.
+* Unofficial flag names deliberately have a different format from Rockstar's flag naming.
+* Prefixes such as `HF_` are not used here.
 
 ## Version history
 
