@@ -9,7 +9,7 @@ For an end-user utility to manipulate flags, [use my flag tool](https://github.c
 
 The JSON's structure is backwards-compatible with [IKT's version](https://github.com/E66666666/GTAVHandlingInfo), just to make it easy to switch between them.
 
-This version contains additional properties compared to IKT's. I added an `author` property for easier distinction, as well as a `bit` property to each flag. The `bit` properties are only there for human readers.
+This version contains additional properties compared to IKT's. I added an `author` property for easier distinction, as well as a `bit` property to each flag. The `bit` properties are mostly there for human readers.
 
 ## Version history
 
