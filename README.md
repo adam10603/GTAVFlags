@@ -1,4 +1,4 @@
-# GTAVFlags
+# GTA V Flags
 ![Version](https://img.shields.io/badge/Version-1.2-green.svg)
 
 This repo hosts a JSON file that my GTA V handling-related tools use for decoding flags. This is just so I don't have to update each tool individually if flags are discovered or changed.
