@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.2",
+	"version": "1.3",
 	"flags":
 	{
 		"strModelFlags":
@@ -281,12 +281,12 @@
 			{
 				"bit": 22,
 				"name": "TYRES_RAISE_SIDE_IMPACT_THRESHOLD",
-				"description": "Causes the wheels to be included in the car's collision boundaries, such as with the monster trucks."
+				"description": "Causes the wheels to be included in the collision boundaries, such as with monster trucks."
 			},
 			{
 				"bit": 23,
 				"name": "Rally Car",
-				"description": "Includes: (1) Bush immunity (2) increased grip proportional to slip angle / lateral velocity, (3) faster falling, as if gravity was increased."
+				"description": "Includes (1) bush immunity, (2) increased grip proportional to slip angle / lateral velocity, (3) faster falling, as if gravity was increased."
 			},
 			{
 				"bit": 24,
@@ -627,12 +627,12 @@
 			{
 				"bit": 26,
 				"name": "Stock rim radius",
-				"description": "Limits the effects of the TYRES_CAN_CLIP (1<<17) handling flag, to where any wheel on the car can only clip up to the sidewall height of the stock tires, regardless of how much sidewall it has."
+				"description": "Limits the effect of the TYRES_CAN_CLIP (1<<17) handling flag, to where any wheel on the car can only clip up to the sidewall height of the stock tires, regardless of how much sidewall it has."
 			},
 			{
 				"bit": 27,
 				"name": "Open wheel behavior",
-				"description": "Includes: (1) switching the downforce behavior of the car to the open wheel style, (2) preventing speed gain from mechanics such as curb boosting or brake boosting."
+				"description": "Includes (1) switching the downforce behavior to the open wheel style, (2) preventing speed gain from mechanics such as curb boosting or brake boosting."
 			},
 			{
 				"bit": 28,
