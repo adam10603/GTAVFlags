@@ -256,7 +256,7 @@
 			{
 				"bit": 17,
 				"name": "TYRES_CAN_CLIP",
-				"description": ""
+				"description": "Lets the tires clip into the ground (up to the height of the sidewall), making them absorb bumps better. If \"Stock rim radius\" (1<<26) is set in strAdvancedFlags, the effect of this flag is limited to the sidewall of the stock tires, regardless of what wheels are on the car."
 			},
 			{
 				"bit": 18,
@@ -271,22 +271,22 @@
 			{
 				"bit": 20,
 				"name": "OFFROAD_ABILITY",
-				"description": ""
+				"description": "Slightly increased grip off-road"
 			},
 			{
 				"bit": 21,
 				"name": "OFFROAD_ABILITY2",
-				"description": ""
+				"description": "Slightly increased grip when not off-road"
 			},
 			{
 				"bit": 22,
 				"name": "TYRES_RAISE_SIDE_IMPACT_THRESHOLD",
-				"description": ""
+				"description": "Causes the wheels to be included in the car's collision boundaries, such as with the monster trucks."
 			},
 			{
 				"bit": 23,
 				"name": "Rally Car",
-				"description": ""
+				"description": "Includes: (1) Bush immunity (2) increased grip proportional to slip angle / lateral velocity, (3) faster falling, as if gravity was increased."
 			},
 			{
 				"bit": 24,
@@ -572,22 +572,22 @@
 			{
 				"bit": 15,
 				"name": "",
-				"description": ""
+				"description": "When used together with (1<<26), it enables the \"Vehicle Stance\" option in the interaction menu (such as with cars from the Tuners DLC)."
 			},
 			{
 				"bit": 16,
 				"name": "Lower Shifting Points",
-				"description": ""
+				"description": "Causes the car to shift up earlier than normal, and also prevents mid-drive speed boosts."
 			},
 			{
 				"bit": 17,
 				"name": "Over Revving",
-				"description": ""
+				"description": "Causes the car to shift later than normal, making the engine bounce off the rev limiter before changing gear. When combined with (1<<16) the two cause the engine to rev in weird ways over bumps."
 			},
 			{
 				"bit": 18,
 				"name": "Bouncy Suspension",
-				"description": ""
+				"description": "Causes the suspension to become a lot springier, especially at higher speed."
 			},
 			{
 				"bit": 19,
@@ -627,17 +627,17 @@
 			{
 				"bit": 26,
 				"name": "Stock rim radius",
-				"description": ""
+				"description": "Limits the effects of the TYRES_CAN_CLIP (1<<17) handling flag, to where any wheel on the car can only clip up to the sidewall height of the stock tires, regardless of how much sidewall it has."
 			},
 			{
 				"bit": 27,
 				"name": "Open wheel behavior",
-				"description": ""
+				"description": "Includes: (1) switching the downforce behavior of the car to the open wheel style, (2) preventing speed gain from mechanics such as curb boosting or brake boosting."
 			},
 			{
 				"bit": 28,
 				"name": "Suspension affects roll",
-				"description": ""
+				"description": "Makes suspension upgrades noticeably affect the body roll of the car, which can also cause the car's grip to change."
 			},
 			{
 				"bit": 29,
