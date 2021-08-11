@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.3",
+	"version": "1.4",
 	"flags":
 	{
 		"strModelFlags":
@@ -256,7 +256,7 @@
 			{
 				"bit": 17,
 				"name": "TYRES_CAN_CLIP",
-				"description": "Lets the tires clip into the ground (up to the height of the sidewall), making them absorb bumps better. If \"Stock rim radius\" (1<<26) is set in strAdvancedFlags, the effect of this flag is limited to the sidewall of the stock tires, regardless of what wheels are on the car."
+				"description": "Lets the tires clip into the ground up to the height of the sidewall, making them absorb bumps better. If (1<<26) is set in strAdvancedFlags, the effect of this flag is tied to the sidewall of the stock tires, disregarding the actual sidewall of the current tires."
 			},
 			{
 				"bit": 18,
@@ -627,7 +627,7 @@
 			{
 				"bit": 26,
 				"name": "Stock rim radius",
-				"description": "Limits the effect of the TYRES_CAN_CLIP (1<<17) handling flag, to where any wheel on the car can only clip up to the sidewall height of the stock tires, regardless of how much sidewall it has."
+				"description": "Limits the effect of the TYRES_CAN_CLIP (1<<17) handling flag, to where tire clipping is bound by the sidewall of the stock tires, regardless of how much sidewall the current tires have. This makes offroad wheels irrelevant."
 			},
 			{
 				"bit": 27,
