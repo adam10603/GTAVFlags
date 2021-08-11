@@ -1,5 +1,5 @@
 # GTA V Flags
-![Version](https://img.shields.io/badge/Version-1.4-green.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.41-green.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 This repo hosts a JSON file that my GTA V handling-related tools use for decoding flags. This is just so I don't have to update each tool individually if flags are discovered or changed.
 
@@ -22,3 +22,5 @@ The JSON's structure is backwards-compatible with [IKT's version](https://github
 * v1.4
   * Changed the descriptions of handling flags `(1<<20)` and `(1<<21)` after re-testing
   * Renamed handling flag `(1<<23)` to `Offroad ability 3` and changed its description after re-testing
+* v1.41
+  * Minor rewording of descriptions added in v1.4
