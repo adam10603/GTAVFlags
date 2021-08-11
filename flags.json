@@ -186,7 +186,7 @@
 			{
 				"bit": 3,
 				"name": "Grip Min-To-Max",
-				"description": ""
+				"description": "Lowers the traction in normal scenarios (increases lap time), but it will also let the tires have much more grip any time they need it (up to max grip). This means the car will strongly resist sliding, and also that the traction stays at max even beyond the peak slip angle (the car keeps gripping no matter how extreme of an angle you're sliding at)."
 			},
 			{
 				"bit": 4,
@@ -271,12 +271,12 @@
 			{
 				"bit": 20,
 				"name": "OFFROAD_ABILITY",
-				"description": "Slightly increased grip off-road"
+				"description": "Just like (1<<21) but without bush immunity, and all the other effects are about half as strong."
 			},
 			{
 				"bit": 21,
 				"name": "OFFROAD_ABILITY2",
-				"description": "Slightly increased grip when not off-road"
+				"description": "Includes (1) bush immunity, (2) increased grip (proportional to slip angle), (3) increased power, (4) increased gravity."
 			},
 			{
 				"bit": 22,
@@ -285,8 +285,8 @@
 			},
 			{
 				"bit": 23,
-				"name": "Rally Car",
-				"description": "Includes (1) bush immunity, (2) increased grip proportional to slip angle / lateral velocity, (3) faster falling, as if gravity was increased."
+				"name": "Offroad ability 3",
+				"description": "Formally \"Rally car\". We are yet to observe a difference between this and (1<<21), so refer to that description for now."
 			},
 			{
 				"bit": 24,
