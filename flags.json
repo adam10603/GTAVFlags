@@ -286,7 +286,7 @@
 			{
 				"bit": 23,
 				"name": "Offroad ability 3",
-				"description": "Formally \"Rally car\". We are yet to find a difference between this and (1<<21), so refer to that one for now."
+				"description": "Formally \"Rally car\" or \"Increased gravity\" before that. We are yet to find a difference between this and (1<<21), so refer to that one for now."
 			},
 			{
 				"bit": 24,
