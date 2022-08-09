@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.41",
+	"version": "1.5",
 	"flags":
 	{
 		"strModelFlags":
@@ -571,13 +571,13 @@
 			},
 			{
 				"bit": 15,
-				"name": "",
+				"name": "Can be stanced",
 				"description": "When used together with (1<<26), it enables the \"Vehicle Stance\" option in the interaction menu (such as with cars from the Tuners DLC)."
 			},
 			{
 				"bit": 16,
-				"name": "Lower Shifting Points",
-				"description": "Causes the car to shift up earlier than normal, and also prevents mid-drive speed boosts."
+				"name": "Tuner power cap",
+				"description": "Only works on tuners, doesn't have an effect on other cars. It uncaps the RPM in last gear which causes the power to drop off and lower the top speed of the car. Effectively a speed cap in last gear. This also means that lower gears can reach higher speeds than last gear. Previously this flag changed gear shift behavior, but it has been overhauled in the Criminal Enterprises update."
 			},
 			{
 				"bit": 17,
@@ -641,8 +641,8 @@
 			},
 			{
 				"bit": 29,
-				"name": "",
-				"description": ""
+				"name": "Special performance mods",
+				"description": "Lets the vehicle have HSW performance mods. Can't be fully tested on PC yet."
 			},
 			{
 				"bit": 30,
