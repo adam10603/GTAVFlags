@@ -1,5 +1,5 @@
 # GTA V Flags
-![Version](https://img.shields.io/badge/Version-1.5-green.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![Version](https://img.shields.io/badge/Version-1.51-green.svg) ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 This repo hosts a JSON file that my GTA V handling-related tools use for decoding flags. This is just so I don't have to update each tool individually if flags are discovered or changed.
 
@@ -28,3 +28,5 @@ The JSON's structure is backwards-compatible with [IKT's version](https://github
   * Added a name for advanced flag `(1<<23)`.
   * Added a name and description for advanced flag `(1<<29)`.
   * Changed the name and description of advanced flag `(1<<16)` to reflect the changes in the Criminal Enterprises update.
+* v1.51
+  * Updated the descriptions of handling flags `(1<<20)` and `(1<<21)` after more testing.

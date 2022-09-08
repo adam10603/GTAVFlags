@@ -271,12 +271,12 @@
 			{
 				"bit": 20,
 				"name": "OFFROAD_ABILITY",
-				"description": "Just like (1<<21) except it doesn't have bush immunity, and all the other effects are about half as strong. In general, it moderately increases car performance."
+				"description": "A cut-down version of (1<<21). Doesn't include bush immunity, the power increase is less, and the gravity increase is only 10%. It moderately increases car performance in general."
 			},
 			{
 				"bit": 21,
 				"name": "OFFROAD_ABILITY2",
-				"description": "Includes (1) bush immunity, (2) increased traction (proportional to slip angle / lateral velocity), (3) increased power, (4) increased gravity (faster falling when airborne). In general, it strongly increases car performance."
+				"description": "Includes (1) bush immunity, (2) increased power, (3) increased gravity by 20% (results in faster falling and more traction). It strongly increases car performance in general."
 			},
 			{
 				"bit": 22,
