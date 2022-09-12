@@ -30,3 +30,5 @@ The JSON's structure is backwards-compatible with [IKT's version](https://github
   * Changed the name and description of advanced flag `(1<<16)` to reflect the changes in the Criminal Enterprises update.
 * v1.51
   * Updated the descriptions of handling flags `(1<<20)` and `(1<<21)` after more testing.
+* v1.52
+  * Added a name and description for advanced flag `(1<<21)`.

@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.51",
+	"version": "1.52",
 	"flags":
 	{
 		"strModelFlags":
@@ -601,8 +601,8 @@
 			},
 			{
 				"bit": 21,
-				"name": "",
-				"description": ""
+				"name": "Longer gears",
+				"description": "Makes all the gear ratios longer except for last gear and reverse which are always fixed at 0.90 and -3.333 respectively."
 			},
 			{
 				"bit": 22,
