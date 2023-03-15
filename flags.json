@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.52",
+	"version": "1.53",
 	"flags":
 	{
 		"strModelFlags":
@@ -576,8 +576,8 @@
 			},
 			{
 				"bit": 16,
-				"name": "Tuner power cap",
-				"description": "Only works on tuners, doesn't have an effect on other cars. It uncaps the RPM in last gear which causes the power to drop off and lower the top speed of the car. Effectively a speed cap in last gear. This also means that lower gears can reach higher speeds than last gear. Previously this flag changed gear shift behavior, but it has been overhauled in the Criminal Enterprises update."
+				"name": "Hard rev limit",
+				"description": "For most vehicles the flag causes earlier upshifts and applies a speed limit to each gear (preventing mid-drive speed boosts using the handbrake). For Tuners it does not affect upshifts, but does apply a speed limit to the last two gears."
 			},
 			{
 				"bit": 17,
