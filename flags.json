@@ -1,6 +1,6 @@
 {
 	"author": "Adam",
-	"version": "1.53",
+	"version": "1.5.4",
 	"flags":
 	{
 		"strModelFlags":
@@ -632,7 +632,7 @@
 			{
 				"bit": 27,
 				"name": "Open wheel behavior",
-				"description": "Includes (1) switching the downforce behavior to the open wheel style, (2) preventing speed gain from mechanics such as curb boosting or brake boosting."
+				"description": "Includes (1) switching the downforce behavior to the open wheel style, (2) preventing speed gain from mechanics such as curb boosting or brake boosting, (3) counteracting the effect of downforce lowering the vehicle at high speed (or even flipping the effect if the downforce is low enough, making the vehicle raise at high speed)."
 			},
 			{
 				"bit": 28,
